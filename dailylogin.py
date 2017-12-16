@@ -9,7 +9,7 @@ import subprocess
 
 def login():
 
-    browser_path = "C:/Program Files (x86)/Mozilla Firefox/firefox.exe" # Path to browser of choice
+    browser_path = r"C:\Program Files (x86)\Mozilla Firefox\firefox.exe" # Path to browser of choice
     muledump_path = r"" # Your path to muledump
     
     # Open the muledump
