@@ -18,7 +18,7 @@ def login():
     p.kill()
     
 
-scheduled_time = "22:02" # What time to run the script
+scheduled_time = "15:00" # What time to run the script
 schedule.every().day.at(scheduled_time).do(login)
 
 while True:
